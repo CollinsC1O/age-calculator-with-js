@@ -1,13 +1,18 @@
-body{
+*{
     margin: 0px;
     padding: 0 auto;
     box-sizing: border-box;
+}
+
+body{
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
     /* text-align: center; */
     background-color: rgb(235, 231, 231);
+    min-height: 100vh;
+    
 }
 
 .container {
@@ -22,14 +27,18 @@ body{
     border-bottom-right-radius: 100px;
     /* box-shadow: 0px 0px 12px 0px; */
     padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 10px;
 }
+
 
 .inputter{
     display: flex;
     /* justify-content: space-around; */
     /* text-align: center; */
     font-weight: bold;
-    padding-top: 30px;
+    /* padding-top: 30px; */
 }
 
 .iput-day{
@@ -111,3 +120,23 @@ span{
     border-radius: 40px;
     border: none;
 }
+
+/* @media {
+    {
+        margin: 0px;
+        padding: 0 auto;
+        box-sizing: border-box;
+    }
+    
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* text-align: center; */
+        /* background-color: rgb(235, 231, 231);
+        min-height: 100vh;
+        
+    }
+    
+} */
